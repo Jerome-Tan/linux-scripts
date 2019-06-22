@@ -1,0 +1,14 @@
+# .screenrc
+
+vbell off
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%Y-%m-%d %c:%s [%H] | %{.br}%-w%{.rW}%n %t%{-}%+w %=%{..G} %{..Y}"
+
+startup_message off
+
+autodetach on
+
+msgwait 1
+
